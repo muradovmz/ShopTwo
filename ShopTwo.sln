@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopTwo", "ShopTwo\ShopTwo.csproj", "{98053931-6E6F-4220-A02B-9DA3945A5383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PactTests", "PactTests\PactTests.csproj", "{F29FB6AD-8E19-4566-BE1F-D413F25C7A0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98053931-6E6F-4220-A02B-9DA3945A5383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98053931-6E6F-4220-A02B-9DA3945A5383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98053931-6E6F-4220-A02B-9DA3945A5383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98053931-6E6F-4220-A02B-9DA3945A5383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29FB6AD-8E19-4566-BE1F-D413F25C7A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29FB6AD-8E19-4566-BE1F-D413F25C7A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29FB6AD-8E19-4566-BE1F-D413F25C7A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29FB6AD-8E19-4566-BE1F-D413F25C7A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {670273FB-5E8D-4B9C-AC96-2DDF2BDF39BB}
+	EndGlobalSection
+EndGlobal
