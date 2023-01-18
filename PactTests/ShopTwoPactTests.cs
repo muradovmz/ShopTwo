@@ -47,7 +47,8 @@ namespace PactTests
                 {
                     id = 1,
                     name = "ragaca1",
-                    price = 10
+                    price = 10,
+                    weight = 11
                 }, 1));
 
             //Act
@@ -60,6 +61,7 @@ namespace PactTests
                 Assert.IsType<int>(products[0].Id);
                 Assert.IsType<string>(products[0].Name);
                 Assert.IsType<double>(products[0].Price);
+                Assert.IsType<double>(products[0].Weight);
             });
             //the mock server is no longer running once VerifyAsync returns
         }
@@ -77,7 +79,8 @@ namespace PactTests
                 {
                     id = Match.Type(2),
                     name = Match.Type("ragaca2"),
-                    price = Match.Type(20)
+                    price = Match.Type(20),
+                    weight = Match.Type(11)
                 });
 
             //Act

@@ -13,7 +13,8 @@
         "body": {
           "id": 2,
           "name": "ragaca2",
-          "price": 20
+          "price": 20,
+          "weight": 11
         },
         "headers": {
           "Content-Type": "application/json; charset=utf-8"
@@ -43,6 +44,14 @@
                   "match": "type"
                 }
               ]
+            },
+            "$.weight": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
             }
           },
           "header": {}
@@ -61,7 +70,8 @@
           {
             "id": 1,
             "name": "ragaca1",
-            "price": 10
+            "price": 10,
+            "weight": 11
           }
         ],
         "headers": {
